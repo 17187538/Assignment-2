@@ -1,0 +1,226 @@
+@import url
+    ('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    background:#fff; 
+    font-family: 'Lobster', cursive;
+    font-size:13px;
+    line-height:180%;
+    color:#474747;
+    margin:0;
+    padding:0;
+}
+
+
+
+.header {
+    background-color: dimgray;
+    height: 90px;
+    border-bottom: solid 6px white;
+}
+
+.nav {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.logo {
+    margin-top: 35px;
+    font-size: 1.4rem;
+    
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: aliceblue
+}
+
+.links a {
+    color: azure;
+    text-decoration: none;
+    padding: 0 10px
+}
+
+.heart {
+    color: whitesmoke;
+}
+
+.banner {
+    text-align: center;
+    background-color: #7b7b97;
+}
+
+.banner img {
+    max-width: 780px;
+    width: 90%;
+}
+
+<---Copied--->
+
+.content {
+    height:100%;
+    overflow:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:150px auto;
+}
+
+#name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:900;
+    font-size:43px;
+    color:#474747;/*color of header title*/
+    border-bottom:4px solid #474747; /*header border*/
+    padding:0px 30px 25px 30px;
+}
+ 
+.links {
+    padding-top:15px;
+}
+ 
+.links a {
+    display:inline-block;
+    text-transform:uppercase;
+    font-weight:900;
+    margin-left:7px;
+   
+}
+
+.info {
+    width:750px;
+    margin-top:60px;
+    column-count:2;
+    column-gap:50px;
+    padding:0px 50px;
+    box-sizing: border-box;
+}
+.box {
+    width:300px;
+    break-inside: avoid;
+    display:inline-block;
+    box-sizing: border-box;
+    padding-top:50px;
+   
+}
+ 
+.line {
+    position:relative;
+    width:100%;
+    height:1px;
+    background:#474747;/*color of section label line*/
+    margin-bottom:20px;
+}
+ 
+.line .label {
+    position:absolute;
+    font-weight:900;
+    font-size:24px;
+    background:#fff;/*should be the same color as your background*/
+    margin-top:-12px;
+    padding-right:10px;
+    color:#474747; /*color of section titles*/
+    font-family: 'Nunito Sans', sans-serif;
+}
+ 
+.text {
+    text-align:justify;
+}
+ 
+#picture img {
+    width:100%;
+    border-radius: 8px;
+    align-content: right;
+}
+ 
+ 
+#source {
+    font-size:12px;
+    text-align:right;
+    margin-top:10px;
+}
+ 
+.meter {
+    height:7px;
+    position:relative;
+    background:#ddd; /*background color of meter*/
+    border-radius:25px;
+    padding:6px;
+}
+ 
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius:8px;
+  background-color:#474747; /*this is the color of the meter itself*/
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 2px 9px  rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); /*some fancy shadowing to add a 3dish effect lol*/
+}
+ 
+.stat {
+    margin-top:30px;
+    text-align:right;
+}
+ 
+.stat-label {
+    font-weight:900;
+    text-transform:uppercase;
+    margin-bottom:8px;
+    font-size:12px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+table {
+    margin:auto;
+    width:100%;
+    font-size:12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+ 
+th {
+    font-weight:600;
+    vertical-align:top;
+    text-align:left;
+    font-weight:900;
+    width:100px;
+}
+ 
+td {
+    padding-left:15px;
+    text-align:right;
+}
+
+.phc a {
+    text-align:center;
+    background:#fff;
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    font-size:11px;
+    font-family:calibri;
+    color:#000;
+    line-height:100%;
+    z-index:999;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding:5px 8px 6px 8px;
+}
+
+.box2 {
+    width:300px;
+    align-items: baseline
+    break-inside: auto;
+    display:inline-block;
+    box-sizing: border-box;
+    padding-top:50px;
+    
+}
+
